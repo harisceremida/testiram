@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anketa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="survey-container">
+        <h1>Anketa</h1>
+        <form id="survey-form">
+            <div class="question">
+                <p>1. Prvo pitanje?</p>
+                <label><input type="radio" name="q1" value="odgovor1"> Odgovor 1</label>
+                <label><input type="radio" name="q1" value="odgovor2"> Odgovor 2</label>
+                <label><input type="radio" name="q1" value="odgovor3"> Odgovor 3</label>
+                <label><input type="radio" name="q1" value="odgovor4"> Odgovor 4</label>
+            </div>
+            <div class="question">
+                <p>2. Drugo pitanje?</p>
+                <label><input type="radio" name="q2" value="odgovor1"> Odgovor 1</label>
+                <label><input type="radio" name="q2" value="odgovor2"> Odgovor 2</label>
+                <label><input type="radio" name="q2" value="odgovor3"> Odgovor 3</label>
+                <label><input type="radio" name="q2" value="odgovor4"> Odgovor 4</label>
+            </div>
+            <div class="question">
+                <p>3. Treće pitanje?</p>
+                <label><input type="radio" name="q3" value="odgovor1"> Odgovor 1</label>
+                <label><input type="radio" name="q3" value="odgovor2"> Odgovor 2</label>
+                <label><input type="radio" name="q3" value="odgovor3"> Odgovor 3</label>
+                <label><input type="radio" name="q3" value="odgovor4"> Odgovor 4</label>
+            </div>
+            <div class="question">
+                <p>4. Četvrto pitanje?</p>
+                <label><input type="radio" name="q4" value="odgovor1"> Odgovor 1</label>
+                <label><input type="radio" name="q4" value="odgovor2"> Odgovor 2</label>
+                <label><input type="radio" name="q4" value="odgovor3"> Odgovor 3</label>
+                <label><input type="radio" name="q4" value="odgovor4"> Odgovor 4</label>
+            </div>
+            <div class="question">
+                <p>5. Peto pitanje?</p>
+                <label><input type="radio" name="q5" value="odgovor1"> Odgovor 1</label>
+                <label><input type="radio" name="q5" value="odgovor2"> Odgovor 2</label>
+                <label><input type="radio" name="q5" value="odgovor3"> Odgovor 3</label>
+                <label><input type="radio" name="q5" value="odgovor4"> Odgovor 4</label>
+            </div>
+            <button type="submit">Pošalji</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
